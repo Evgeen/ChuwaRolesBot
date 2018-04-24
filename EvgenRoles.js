@@ -4,13 +4,11 @@ const setupCMD = "!createroles"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
 const roles = ["English", "Russian"];
 const reactions = [":flag_gb:", ":flag_ru"];
-const botToken = "TOKEN"; /*You'll have to set this yourself; read more
-                     here https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token*/
 
 //Load up the bot...
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-bot.login(botToken);
+client.login(process.env.BOT_TOKEN);
 
 //If there isn't a reaction for every role, scold the user!
 if (roles.length !== reactions.length) throw "Roles list and reactions list are not the same length!";
