@@ -3,8 +3,8 @@ const yourID = "197818493880631298"; //Instructions on how to get this: https://
 const setupCMD = "!roles"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
 const roles = ["Russian", "English"];
-const reactions = [":flag_ru:", ":flag_gb:"];
-const botToken = ""; /*You'll have to set this yourself; read more
+const reactions = ["\:flag_ru:", "\:flag_gb:"];
+const botToken = "TOKEN"; /*You'll have to set this yourself; read more
                      here https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token*/
 
 //Load up the bot...
