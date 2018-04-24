@@ -1,0 +1,13 @@
+{
+  "name": "EvgenRoles",
+  "description": "Discord roles bot for EvgenServer",
+  "version": "1.0",
+  "main": "EvgenRoles.js",
+  "scripts": {
+    "start": "node EvgenRoles.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
+}
