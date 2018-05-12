@@ -1,10 +1,10 @@
 {
-  "name": "EvgenRoles",
-  "description": "Discord roles bot for EvgenServer",
+  "name": "ChuwaRolesBot",
+  "description": "Discord roles bot for Chuwa's server",
   "version": "1.0",
-  "main": "EvgenRoles.js",
+  "main": "Roles.js",
   "scripts": {
-    "start": "node EvgenRoles.js"
+    "start": "node Roles.js"
   },
   "dependencies": {
     "discord.js": "11.1.0",
