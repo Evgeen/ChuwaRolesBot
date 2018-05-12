@@ -1,9 +1,9 @@
 //Settings!
 const yourID = "197818493880631298"; //Instructions on how to get this: https://redd.it/40zgse
-const setupCMD = "!roles"
-let initialMessage = `**Язык каналов / Channels Language:**`;
-const roles = ["Русские", "English"];
-const reactions = ["🇷🇺", "🇬🇧"];
+const setupCMD = "=roles"
+let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
+const roles = ["Updates", "Events", "Votes"];
+const reactions = ["1️", "2️", "3️"];
 
 //Load up the bot...
 const Discord = require('discord.js');
