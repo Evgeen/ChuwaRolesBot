@@ -3,7 +3,7 @@ const yourID = "369813876264534017"; //Instructions on how to get this: https://
 const setupCMD = "=roles"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
 const roles = ["Updates", "Events", "Votes", "Spotify Listener", "Overwatch", "Pokemon", "Assassins Creed", "Final Fantasy", "Watchdogs", "Osu!", "Portal", "Minecraft", "YouTube Viewer"];
-const reactions = ["📋", "🎈", "📊", "💚", "🔫", "🐭", "🔪", "🔪", "📚", "🎀", "💙", "🌿", "❤️"];
+const reactions = ["📋", "🎈", "📊", "💚", "🔫", "🐭", "🔪", "🔪", "📚", "🎀", "💙", "🌿", "🔺"];
 
 //Load up the bot...
 const Discord = require('discord.js');
