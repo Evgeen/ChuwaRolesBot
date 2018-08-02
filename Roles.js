@@ -5,6 +5,7 @@ let initialMessage = `**React to the messages below to receive the associated ro
 const roles = ["Updates", "Events", "Votes", "Spotify Listener", "Overwatch", "Pokemon", "Assassins Creed", "Final Fantasy", "Watchdogs", "Osu!", "Don't Starve Together", "Portal", "Minecraft", "YouTube Viewer];
 const reactions = ["📋", "🎈", "📊", "💚", "🔫", "🐭", "🔪", "🔪", "📚", "🎀", "🐒", "💙", "🌿", "❤️"];
 
+
 //Load up the bot...
 const Discord = require('discord.js');
 const bot = new Discord.Client();
