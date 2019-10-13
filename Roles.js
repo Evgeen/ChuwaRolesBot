@@ -2,8 +2,8 @@
 const yourID = "369813876264534017"; //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "=roles"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
-const roles = ["Lolita", "Lover", "Arianator", "Queen"];
-const reactions = ["🌸", "💕", "🚀", "👑"];
+const roles = ["Snowman⛄️"];
+const reactions = ["🌸"];
 
 //Load up the bot...
 const Discord = require('discord.js');
